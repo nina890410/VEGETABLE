@@ -1,0 +1,206 @@
+/* 背景設定 */
+body{
+    width: 1260px;
+    height: 940px;
+    background-color: #EDF2C5;
+}
+
+/* 最上面那一條 */
+.head{
+    display: flex;
+    flex-flow: wrap;  
+}
+/* 這個是大標的樣式 */
+h1{
+    margin: 53px 415px 8px 160px;
+    font-family: Arial Black, Helvetica, sans-serif;
+    color: #778A50;
+    width: 271px;
+    height: 42px;
+}
+/* 右上角的按鍵們 */
+.remix{
+    width: 251px;
+    height: 25;
+    display: flex;
+    flex-flow: wrap;
+    margin-right: 100px;
+}
+
+.button1{
+    width: 25px;
+    height: 25px;
+    margin-top: 52px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-flow: wrap;  
+}
+.button2{
+    width: 25px;
+    height: 25px;
+    margin: 52px 0px 17px 5px;
+    display: flex;
+    flex-flow: wrap;  
+}
+.seperate{
+    width: 20px;
+    height: 25px;
+    color:  #778A50;
+    margin: 28px 10px 17px 10px;
+}
+a{
+    text-decoration: none;
+    color: #778A50;
+}
+.button3{
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #778A50;
+    width: 60px;
+    height: 25px;
+    border: 1px solid #778A50;
+    background-color: #EDF2C5;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 50px;
+    margin-bottom: 17px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap; 
+}
+.button4{
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #778A50;
+    width: 60px;
+    height: 25px;
+    border: 1px solid #778A50;
+    background-color: #EDF2C5;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 17px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap; 
+}
+
+
+
+/* 這是導覽列 */
+nav{
+    width: 940px;
+    height: 44px;
+    background-color: #778A50;
+    border-radius: 3px;
+    margin: 0px 160px 10px 120px;
+    display: flex;
+    flex-flow: wrap; 
+    align-content: center;
+}
+
+.nav{
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 16px 30px;
+}
+
+.pumpkin{
+    margin: 0px 160px 30px 160px; 
+}
+
+.aside{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.left h2{
+    width: 410px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778A50;
+    
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #edf2c5;
+    padding-left: 30px;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 160px;
+}
+
+.content{
+    width: 445px;
+    height: 140px;
+    display: flex;
+    justify-items: space-between;
+    margin-top: 0;
+    margin-left: 160px;
+}
+
+.carrot{
+    margin-left: 12px;
+}
+.corn{
+    margin-left: 12px;
+}
+
+.right h2{
+    width: 435px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778A50;
+    
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #edf2c5;
+    padding-left: 30px;
+    
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 30px;
+
+}
+
+.right article {
+    width: 445px;
+    height: 110px;
+    background-color: #f7fbda;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #778A50;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+
+footer{
+    width: 1264px;
+    height: 60px;
+    background-color: #778A50;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #edf2c5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
